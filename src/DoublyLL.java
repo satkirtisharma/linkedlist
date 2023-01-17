@@ -36,8 +36,9 @@ public class DoublyLL {
             temp=temp.next;
         }
     }
-     void insertAtEnd(Node tempLL, int dataForNewNode)
+     void insertAtEnd( int dataForNewNode)
     {
+        Node tempLL=head;
         Node currentNode=tempLL;
         Node newNode=new Node(dataForNewNode);
         if(tempLL==null)
@@ -55,22 +56,6 @@ public class DoublyLL {
         }
 
     }
-     Node insertAtBegin(Node tempLL, int dataForNewNode)
-    {
-        Node newNode=new Node(dataForNewNode);
-        if(tempLL==null)
-        {
-            tempLL=newNode;
-        }
-        else
-        {
-         //   newNode.next=tempLL;
-           tempLL.prev=newNode;
-            tempLL=newNode;
-            tempLL.prev=null;
-        }
-        return tempLL;
-    }
 
 
 
@@ -80,6 +65,7 @@ public class DoublyLL {
       dll.add(30);
       dll.add(40);
       dll.add(50);
+      dll.insertAtEnd(60);
       dll.display();
 
     }

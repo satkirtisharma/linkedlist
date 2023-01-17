@@ -112,21 +112,62 @@ public class Linkedlist {
         }
         return tempLL;
     }
+    int searchkey(int data){
+        Node temp=head;
+        int i=1;
+        while (temp!=null){
+            if(temp.data==data){
+                return i;
+            }
+            temp=temp.next;
+            i++;
+        }
+        return -1;
+    }
+    public void reverse(){
+        Node prev=null;
+        Node curr=tail= head;
+        Node next;
+        while (curr!=null){
+            next =curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        head=prev;
+    }
+    public void deletefromend(int epos){
+        int pos=size-epos;
+        int i=1;
+        Node temp=head;
+        while (i<pos){
+            temp=temp.next;
+            i++;
+        }
+
+        temp.next=temp.next.next;
+
+
+    }
+
 
 
     public static void main(String[] args) {
         Linkedlist ll =new Linkedlist();
         ll.addfirst(2);
         ll.addfirst(1);
-        ll.addlast(3);
+        ll.addlast(7);
         ll.addlast(5);
         ll.addatIndex(3,4);
-        ll.removeFirst();
+       // ll.removeFirst();
 //        System.out.println(size);
-        ll.removeLast();
+       // ll.removeLast();
+      //  System.out.println("postion"+ll.searchkey(7));
+       // ll.reverse();
         ll.printLinkedList();
-        head=null;
-
+        ll.deletefromend(2);
+        System.out.println("ds");
+        ll.printLinkedList();
 
     }
 }

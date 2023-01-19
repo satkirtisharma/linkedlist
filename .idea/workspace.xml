@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bd93fd6-8405-4fea-8b4f-dcf4a235318f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Doublell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReplaceNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aptitude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/circularDoubly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/circularSingly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doublell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doublell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lastoccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lastoccurence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +52,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Doublell">
+  <component name="RunManager" selected="Application.circularDoubly">
     <configuration name="Doublell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Doublell" />
       <module name="linkedlist" />
@@ -69,15 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="aptitude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aptitude" />
       <module name="linkedlist" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lastoccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lastoccurence" />
+    <configuration name="circularDoubly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="circularDoubly" />
       <module name="linkedlist" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.circularDoubly" />
+        <item itemvalue="Application.aptitude" />
+        <item itemvalue="Application.Linkedlist" />
         <item itemvalue="Application.Doublell" />
         <item itemvalue="Application.DoublyLL" />
-        <item itemvalue="Application.Linkedlist" />
-        <item itemvalue="Application.lastoccurence" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +127,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>83</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/circularDoubly.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

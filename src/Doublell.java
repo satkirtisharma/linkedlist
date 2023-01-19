@@ -51,7 +51,6 @@ public class Doublell {
             temp=temp.next;
         }
     }
-    public void insertatIndex
     public static void main(String[] args) {
     Doublell dll=new Doublell();
     dll.addfirst(3);

@@ -43,6 +43,7 @@ public class Linkedlist {
             System.out.println(temp.data);
             temp=temp.next;
         }
+        System.out.println(temp.data);
     }
     public void addatIndex(int Index,int data){
         if(Index==0){
@@ -151,7 +152,6 @@ public class Linkedlist {
     }
 
 
-
     public static void main(String[] args) {
         Linkedlist ll =new Linkedlist();
         ll.addfirst(2);
@@ -168,6 +168,18 @@ public class Linkedlist {
         ll.deletefromend(2);
         System.out.println("ds");
         ll.printLinkedList();
-
+        Linkedlist ta =new Linkedlist();
+        Linkedlist tb =new Linkedlist();
+        ta.addlast(1);
+        ta.addfirst(2);
+        ta.addlast(3);
+        ta.addfirst(4);
+        ta.addlast(5);
+        tb.addlast(6);
+        tb.addlast(7);
+        tb.addlast(8);
+        tb.addlast(9);
+        tb.addlast(10);
+        tb.printLinkedList();
     }
 }

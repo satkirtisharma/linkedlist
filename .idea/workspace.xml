@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bd93fd6-8405-4fea-8b4f-dcf4a235318f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReplaceNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aptitude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circularDoubly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circularSingly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doublell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doublell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lastoccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lastoccurence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aptitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aptitude.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.circularDoubly">
+  <component name="RunManager" selected="Application.aptitude">
     <configuration name="Doublell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Doublell" />
       <module name="linkedlist" />
@@ -90,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.circularDoubly" />
         <item itemvalue="Application.aptitude" />
+        <item itemvalue="Application.circularDoubly" />
         <item itemvalue="Application.Linkedlist" />
         <item itemvalue="Application.Doublell" />
         <item itemvalue="Application.DoublyLL" />
